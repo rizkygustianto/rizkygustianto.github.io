@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+html, body {
+    height: 100%;
+}
+
+.fullscreen {
+    height: 100%;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.hero {
+    background-image: url(./img/alek-kalinowski-Sj_3Jdr19L4-unsplash.jpg);
+    background-size: cover;
+    color: whitesmoke;
+    font-weight: 300;
+}
+
+.sec-1 {
+    background-image: url(./img/johan-mouchet-BOvPbx7oSG0-unsplash.jpg);
+    background-size: cover;
+    color: black;
+    font-weight: 300;
+}
+
+.sec-2 {
+    background-image: url(./img/nick-fewings-wy5QuZMI8V4-unsplash.jpg), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.3));
+    background-blend-mode: overlay;
+    background-size: cover;
+    color: whitesmoke;
+    font-weight: 300;
+    background-color: rgba(0,0,0,0.5);
+}
+
+section {
+    height: 40%;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5%;
+    background-color: gray;
+    color: white;
+}
+
+section h2 {
+    text-align: center;
+    padding: 5%;
+    
+}
+
+section p {
+    padding: 0px 100px;
+}
+
+.light {
+    background-color: whitesmoke;
+}
+
+.dark {
+    background-color: gray;
+    color: white;
+}
